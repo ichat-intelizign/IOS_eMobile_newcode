@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF25C4E3205792A0001DBC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C4E2205792A0001DBC71 /* AppDelegate.swift */; };
+		AF25C4E5205792A0001DBC71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C4E4205792A0001DBC71 /* ViewController.swift */; };
+		AF25C4E8205792A0001DBC71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25C4E6205792A0001DBC71 /* Main.storyboard */; };
+		AF25C4EA205792A0001DBC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF25C4E9205792A0001DBC71 /* Assets.xcassets */; };
+		AF25C4ED205792A0001DBC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25C4EB205792A0001DBC71 /* LaunchScreen.storyboard */; };
+		AF25C4F8205792A0001DBC71 /* iMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C4F7205792A0001DBC71 /* iMobileTests.swift */; };
+		AF25C503205792A0001DBC71 /* iMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C502205792A0001DBC71 /* iMobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF25C4F4205792A0001DBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF25C4D7205792A0001DBC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF25C4DE205792A0001DBC71;
+			remoteInfo = iMobile;
+		};
+		AF25C4FF205792A0001DBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF25C4D7205792A0001DBC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF25C4DE205792A0001DBC71;
+			remoteInfo = iMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF25C4DF205792A0001DBC71 /* iMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25C4E2205792A0001DBC71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF25C4E4205792A0001DBC71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF25C4E7205792A0001DBC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF25C4E9205792A0001DBC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF25C4EC205792A0001DBC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF25C4EE205792A0001DBC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF25C4F3205792A0001DBC71 /* iMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25C4F7205792A0001DBC71 /* iMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMobileTests.swift; sourceTree = "<group>"; };
+		AF25C4F9205792A0001DBC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF25C4FE205792A0001DBC71 /* iMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25C502205792A0001DBC71 /* iMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMobileUITests.swift; sourceTree = "<group>"; };
+		AF25C504205792A0001DBC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF25C4DC205792A0001DBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4F0205792A0001DBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4FB205792A0001DBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF25C4D6205792A0001DBC71 = {
+			isa = PBXGroup;
+			children = (
+				AF25C4E1205792A0001DBC71 /* iMobile */,
+				AF25C4F6205792A0001DBC71 /* iMobileTests */,
+				AF25C501205792A0001DBC71 /* iMobileUITests */,
+				AF25C4E0205792A0001DBC71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF25C4E0205792A0001DBC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C4DF205792A0001DBC71 /* iMobile.app */,
+				AF25C4F3205792A0001DBC71 /* iMobileTests.xctest */,
+				AF25C4FE205792A0001DBC71 /* iMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF25C4E1205792A0001DBC71 /* iMobile */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C4E2205792A0001DBC71 /* AppDelegate.swift */,
+				AF25C4E4205792A0001DBC71 /* ViewController.swift */,
+				AF25C4E6205792A0001DBC71 /* Main.storyboard */,
+				AF25C4E9205792A0001DBC71 /* Assets.xcassets */,
+				AF25C4EB205792A0001DBC71 /* LaunchScreen.storyboard */,
+				AF25C4EE205792A0001DBC71 /* Info.plist */,
+			);
+			path = iMobile;
+			sourceTree = "<group>";
+		};
+		AF25C4F6205792A0001DBC71 /* iMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C4F7205792A0001DBC71 /* iMobileTests.swift */,
+				AF25C4F9205792A0001DBC71 /* Info.plist */,
+			);
+			path = iMobileTests;
+			sourceTree = "<group>";
+		};
+		AF25C501205792A0001DBC71 /* iMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C502205792A0001DBC71 /* iMobileUITests.swift */,
+				AF25C504205792A0001DBC71 /* Info.plist */,
+			);
+			path = iMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF25C4DE205792A0001DBC71 /* iMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25C507205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobile" */;
+			buildPhases = (
+				AF25C4DB205792A0001DBC71 /* Sources */,
+				AF25C4DC205792A0001DBC71 /* Frameworks */,
+				AF25C4DD205792A0001DBC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMobile;
+			productName = iMobile;
+			productReference = AF25C4DF205792A0001DBC71 /* iMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF25C4F2205792A0001DBC71 /* iMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25C50A205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileTests" */;
+			buildPhases = (
+				AF25C4EF205792A0001DBC71 /* Sources */,
+				AF25C4F0205792A0001DBC71 /* Frameworks */,
+				AF25C4F1205792A0001DBC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF25C4F5205792A0001DBC71 /* PBXTargetDependency */,
+			);
+			name = iMobileTests;
+			productName = iMobileTests;
+			productReference = AF25C4F3205792A0001DBC71 /* iMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF25C4FD205792A0001DBC71 /* iMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25C50D205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileUITests" */;
+			buildPhases = (
+				AF25C4FA205792A0001DBC71 /* Sources */,
+				AF25C4FB205792A0001DBC71 /* Frameworks */,
+				AF25C4FC205792A0001DBC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF25C500205792A0001DBC71 /* PBXTargetDependency */,
+			);
+			name = iMobileUITests;
+			productName = iMobileUITests;
+			productReference = AF25C4FE205792A0001DBC71 /* iMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF25C4D7205792A0001DBC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rahul Maurya";
+				TargetAttributes = {
+					AF25C4DE205792A0001DBC71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AF25C4F2205792A0001DBC71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF25C4DE205792A0001DBC71;
+					};
+					AF25C4FD205792A0001DBC71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF25C4DE205792A0001DBC71;
+					};
+				};
+			};
+			buildConfigurationList = AF25C4DA205792A0001DBC71 /* Build configuration list for PBXProject "iMobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF25C4D6205792A0001DBC71;
+			productRefGroup = AF25C4E0205792A0001DBC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF25C4DE205792A0001DBC71 /* iMobile */,
+				AF25C4F2205792A0001DBC71 /* iMobileTests */,
+				AF25C4FD205792A0001DBC71 /* iMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF25C4DD205792A0001DBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C4ED205792A0001DBC71 /* LaunchScreen.storyboard in Resources */,
+				AF25C4EA205792A0001DBC71 /* Assets.xcassets in Resources */,
+				AF25C4E8205792A0001DBC71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4F1205792A0001DBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4FC205792A0001DBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF25C4DB205792A0001DBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C4E5205792A0001DBC71 /* ViewController.swift in Sources */,
+				AF25C4E3205792A0001DBC71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4EF205792A0001DBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C4F8205792A0001DBC71 /* iMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4FA205792A0001DBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C503205792A0001DBC71 /* iMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF25C4F5205792A0001DBC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF25C4DE205792A0001DBC71 /* iMobile */;
+			targetProxy = AF25C4F4205792A0001DBC71 /* PBXContainerItemProxy */;
+		};
+		AF25C500205792A0001DBC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF25C4DE205792A0001DBC71 /* iMobile */;
+			targetProxy = AF25C4FF205792A0001DBC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF25C4E6205792A0001DBC71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF25C4E7205792A0001DBC71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF25C4EB205792A0001DBC71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF25C4EC205792A0001DBC71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF25C505205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF25C506205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF25C508205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF25C509205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF25C50B205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMobile.app/iMobile";
+			};
+			name = Debug;
+		};
+		AF25C50C205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMobile.app/iMobile";
+			};
+			name = Release;
+		};
+		AF25C50E205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMobile;
+			};
+			name = Debug;
+		};
+		AF25C50F205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF25C4DA205792A0001DBC71 /* Build configuration list for PBXProject "iMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C505205792A0001DBC71 /* Debug */,
+				AF25C506205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25C507205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C508205792A0001DBC71 /* Debug */,
+				AF25C509205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25C50A205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C50B205792A0001DBC71 /* Debug */,
+				AF25C50C205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25C50D205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C50E205792A0001DBC71 /* Debug */,
+				AF25C50F205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF25C4D7205792A0001DBC71 /* Project object */;
+}
