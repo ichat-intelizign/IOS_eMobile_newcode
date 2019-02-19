@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="138" id="KGk-i7-Jjw" customClass="CarouselReuseViewTableViewCell" customModule="iMobile" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="137.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bday_bg1.png" translatesAutoresizingMaskIntoConstraints="NO" id="HCS-IP-fd5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bday_img1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xgz-iz-BfL">
+                        <rect key="frame" x="9" y="13" width="110" height="113"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="113" id="BO4-aF-T8l"/>
+                            <constraint firstAttribute="width" constant="110" id="mCT-kG-7jA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8N-Az-6dI">
+                        <rect key="frame" x="127" y="24" width="177" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="7iz-vs-VkC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-Op-87Q">
+                        <rect key="frame" x="127" y="69" width="177" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="9x8-at-xv5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="S8N-Az-6dI" secondAttribute="trailing" constant="16" id="1p5-kR-opU"/>
+                    <constraint firstAttribute="trailing" secondItem="HCS-IP-fd5" secondAttribute="trailing" id="373-id-KBa"/>
+                    <constraint firstAttribute="trailing" secondItem="Bfc-Op-87Q" secondAttribute="trailing" constant="16" id="6Ft-42-PTv"/>
+                    <constraint firstItem="Xgz-iz-BfL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="9fW-bY-oZf"/>
+                    <constraint firstItem="Bfc-Op-87Q" firstAttribute="leading" secondItem="Xgz-iz-BfL" secondAttribute="trailing" constant="8" id="BO0-vG-W7l"/>
+                    <constraint firstAttribute="bottom" secondItem="HCS-IP-fd5" secondAttribute="bottom" id="IqJ-Hy-EOD"/>
+                    <constraint firstItem="HCS-IP-fd5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Qnz-5k-MbS"/>
+                    <constraint firstItem="S8N-Az-6dI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="Ss5-Pw-NFE"/>
+                    <constraint firstItem="Bfc-Op-87Q" firstAttribute="top" secondItem="S8N-Az-6dI" secondAttribute="bottom" constant="2" id="i4O-WW-wLp"/>
+                    <constraint firstItem="S8N-Az-6dI" firstAttribute="leading" secondItem="Xgz-iz-BfL" secondAttribute="trailing" constant="8" id="ne1-Bo-otr"/>
+                    <constraint firstItem="HCS-IP-fd5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oqy-tC-HZO"/>
+                    <constraint firstItem="Xgz-iz-BfL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="v0D-95-tNk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgBackground" destination="HCS-IP-fd5" id="9mU-wH-SKE"/>
+                <outlet property="imgBirthday" destination="Xgz-iz-BfL" id="CBA-tO-Hfw"/>
+                <outlet property="lbllocation" destination="Bfc-Op-87Q" id="nFa-Wu-j9e"/>
+                <outlet property="lblname" destination="S8N-Az-6dI" id="KRZ-G3-sim"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="137"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bday_bg1.png" width="240" height="240"/>
+        <image name="bday_img1.png" width="240" height="235"/>
+    </resources>
+</document>

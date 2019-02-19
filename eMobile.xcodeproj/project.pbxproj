@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49FB6F0530F92E5338E170CD /* Pods_iMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E2A5134F667828B53802B6 /* Pods_iMobileTests.framework */; };
+		AF035622205B89300015BEA5 /* profileimage.png in Resources */ = {isa = PBXBuildFile; fileRef = AF035621205B89300015BEA5 /* profileimage.png */; };
+		AF035624205B95520015BEA5 /* NavigationvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF035623205B95520015BEA5 /* NavigationvViewController.swift */; };
+		AF035626205B97010015BEA5 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF035625205B97010015BEA5 /* DemoViewController.swift */; };
+		AF035628205BD11A0015BEA5 /* touch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF035627205BD11A0015BEA5 /* touch.png */; };
+		AF03562A205BD3200015BEA5 /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = AF035629205BD3200015BEA5 /* tap.png */; };
+		AF03562C205BE53F0015BEA5 /* calender_picker.png in Resources */ = {isa = PBXBuildFile; fileRef = AF03562B205BE53F0015BEA5 /* calender_picker.png */; };
+		AF05C795206A40670083ECF2 /* employee_leave.png in Resources */ = {isa = PBXBuildFile; fileRef = AF05C794206A40670083ECF2 /* employee_leave.png */; };
+		AF05C797206A40760083ECF2 /* employee_timesheet.png in Resources */ = {isa = PBXBuildFile; fileRef = AF05C796206A40760083ECF2 /* employee_timesheet.png */; };
+		AF05C799206A45EB0083ECF2 /* EmployeeTimesheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05C798206A45EB0083ECF2 /* EmployeeTimesheetViewController.swift */; };
+		AF05C79B206A4A180083ECF2 /* EmpTImesheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF05C79A206A4A170083ECF2 /* EmpTImesheetTableViewCell.swift */; };
+		AF0678D120749563003CCA5B /* sinchronize.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0678D020749562003CCA5B /* sinchronize.png */; };
+		AF068CE6205A35620094C1D8 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CE5205A35620094C1D8 /* menu.png */; };
+		AF068CEA205A75860094C1D8 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF068CE8205A75860094C1D8 /* iCarousel.m */; };
+		AF068CEC205A7E300094C1D8 /* bday_bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CEB205A7E300094C1D8 /* bday_bg1.png */; };
+		AF068CEE205A7E380094C1D8 /* bday_bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CED205A7E370094C1D8 /* bday_bg2.png */; };
+		AF068CF0205A7E430094C1D8 /* bday_bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CEF205A7E430094C1D8 /* bday_bg3.png */; };
+		AF068CF4205A7E510094C1D8 /* bday_img2.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CF1205A7E500094C1D8 /* bday_img2.png */; };
+		AF068CF5205A7E510094C1D8 /* bday_img3.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CF2205A7E500094C1D8 /* bday_img3.png */; };
+		AF068CF6205A7E510094C1D8 /* bday_img1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF068CF3205A7E500094C1D8 /* bday_img1.png */; };
+		AF068CFD205A8F130094C1D8 /* CarouselReuseViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF068CFB205A8F130094C1D8 /* CarouselReuseViewTableViewCell.swift */; };
+		AF068CFE205A8F130094C1D8 /* CarouselReuseViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF068CFC205A8F130094C1D8 /* CarouselReuseViewTableViewCell.xib */; };
+		AF068D01205A9F320094C1D8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF068D00205A9F320094C1D8 /* Common.swift */; };
+		AF06B4DD2058F49B00451E26 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF06B4DC2058F49B00451E26 /* Dashboard.storyboard */; };
+		AF06B4E02058F53300451E26 /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06B4DF2058F53300451E26 /* SSASideMenu.swift */; };
+		AF06B4E32058FABA00451E26 /* imobile.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B4E12058FABA00451E26 /* imobile.png */; };
+		AF06B4E42058FABA00451E26 /* intelizign_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B4E22058FABA00451E26 /* intelizign_logo.png */; };
+		AF06B4F5205901A600451E26 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06B4F4205901A600451E26 /* DashboardViewController.swift */; };
+		AF06B4F7205902B600451E26 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06B4F6205902B600451E26 /* LeftMenuViewController.swift */; };
+		AF06B4F92059247F00451E26 /* LeftmenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06B4F82059247F00451E26 /* LeftmenuTableViewCell.swift */; };
+		AF06B4FB20592F7900451E26 /* fill_timesheet.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B4FA20592F7800451E26 /* fill_timesheet.png */; };
+		AF06B4FD20592F8700451E26 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B4FC20592F8700451E26 /* home.png */; };
+		AF06B4FF20592F9700451E26 /* leave_history.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B4FE20592F9700451E26 /* leave_history.png */; };
+		AF06B50220592FAA00451E26 /* leaveavailibility.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B50020592FAA00451E26 /* leaveavailibility.png */; };
+		AF06B50320592FAA00451E26 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B50120592FAA00451E26 /* logout.png */; };
+		AF06B50520592FF900451E26 /* apply_leave.png in Resources */ = {isa = PBXBuildFile; fileRef = AF06B50420592FF900451E26 /* apply_leave.png */; };
+		AF08A34E2063C456003B76F1 /* TimeSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08A34D2063C456003B76F1 /* TimeSheetViewController.swift */; };
+		AF08A3502063C80A003B76F1 /* TimeSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF08A34F2063C80A003B76F1 /* TimeSheetTableViewCell.swift */; };
+		AF08A3522063C9EE003B76F1 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = AF08A3512063C9EE003B76F1 /* info.png */; };
+		AF08A3542063CB76003B76F1 /* arrow-204-48.png in Resources */ = {isa = PBXBuildFile; fileRef = AF08A3532063CB76003B76F1 /* arrow-204-48.png */; };
+		AF08A3562063CDDA003B76F1 /* arrow-204-16.png in Resources */ = {isa = PBXBuildFile; fileRef = AF08A3552063CDDA003B76F1 /* arrow-204-16.png */; };
+		AF0908D1206519560074E23A /* ColorLegend.html in Resources */ = {isa = PBXBuildFile; fileRef = AF0908D0206519560074E23A /* ColorLegend.html */; };
+		AF0908D320651A5E0074E23A /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0908D220651A5E0074E23A /* PopupViewController.swift */; };
+		AF0908D520651C9D0074E23A /* close-window-32.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0908D420651C9D0074E23A /* close-window-32.png */; };
+		AF0908D720652CC40074E23A /* TimeFillPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0908D620652CC40074E23A /* TimeFillPopup.swift */; };
+		AF0A209721479FB80068D1D2 /* eMobile-01.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0A209621479FB80068D1D2 /* eMobile-01.png */; };
+		AF105529206135C1002CEEAD /* LeaveAvailabilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF105528206135C1002CEEAD /* LeaveAvailabilityTableViewCell.swift */; };
+		AF114284206B5F1400BF6295 /* EmployeeTimesheetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF114283206B5F1400BF6295 /* EmployeeTimesheetDetailsViewController.swift */; };
+		AF114286206B628000BF6295 /* EmpTimesheetDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF114285206B628000BF6295 /* EmpTimesheetDetailsTableViewCell.swift */; };
+		AF114288206B8FBF00BF6295 /* EmpDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF114287206B8FBF00BF6295 /* EmpDetailsCollectionViewCell.swift */; };
+		AF119E35206CC8BA00988D15 /* square-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AF119E34206CC8B900988D15 /* square-outline.png */; };
+		AF119E37206CC8D200988D15 /* check-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = AF119E36206CC8D200988D15 /* check-mark.png */; };
+		AF14CA722068ED5E002C6F42 /* timesheet_blocked.png in Resources */ = {isa = PBXBuildFile; fileRef = AF14CA712068ED5E002C6F42 /* timesheet_blocked.png */; };
+		AF165832205F9C89000F6C28 /* LeaveAvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF165831205F9C89000F6C28 /* LeaveAvailabilityViewController.swift */; };
+		AF16B8BB207230AC00B6C39C /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16B8B72072309F00B6C39C /* previous.png */; };
+		AF16B8BC207230AC00B6C39C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16B8B8207230A200B6C39C /* back.png */; };
+		AF16B8BD207230AC00B6C39C /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16B8B9207230A400B6C39C /* forward.png */; };
+		AF16B8BE207230AC00B6C39C /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = AF16B8BA207230AC00B6C39C /* next.png */; };
+		AF16B8C020723DAB00B6C39C /* EmployeeLeaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16B8BF20723DAB00B6C39C /* EmployeeLeaveViewController.swift */; };
+		AF16B8C2207240C300B6C39C /* EmployeeLeaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16B8C1207240C300B6C39C /* EmployeeLeaveTableViewCell.swift */; };
+		AF25C4E3205792A0001DBC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C4E2205792A0001DBC71 /* AppDelegate.swift */; };
+		AF25C4E5205792A0001DBC71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C4E4205792A0001DBC71 /* ViewController.swift */; };
+		AF25C4E8205792A0001DBC71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25C4E6205792A0001DBC71 /* Main.storyboard */; };
+		AF25C4EA205792A0001DBC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF25C4E9205792A0001DBC71 /* Assets.xcassets */; };
+		AF25C4ED205792A0001DBC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25C4EB205792A0001DBC71 /* LaunchScreen.storyboard */; };
+		AF25C4F8205792A0001DBC71 /* iMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C4F7205792A0001DBC71 /* iMobileTests.swift */; };
+		AF25C503205792A0001DBC71 /* iMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C502205792A0001DBC71 /* iMobileUITests.swift */; };
+		AF25C51220579908001DBC71 /* imobile_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25C51120579908001DBC71 /* imobile_detail.png */; };
+		AF25C51420579912001DBC71 /* intelizign_splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25C51320579912001DBC71 /* intelizign_splash_logo.png */; };
+		AF25C5162057AF7A001DBC71 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF25C5152057AF7A001DBC71 /* Login.storyboard */; };
+		AF25C5192057CB47001DBC71 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25C5172057CB46001DBC71 /* password.png */; };
+		AF25C51A2057CB47001DBC71 /* userid.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25C5182057CB47001DBC71 /* userid.png */; };
+		AF25C51C2057D288001DBC71 /* square-outline-64.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25C51B2057D288001DBC71 /* square-outline-64.png */; };
+		AF25C51E2057D297001DBC71 /* check-mark-8-64.png in Resources */ = {isa = PBXBuildFile; fileRef = AF25C51D2057D297001DBC71 /* check-mark-8-64.png */; };
+		AF25C5212057DA32001DBC71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25C5202057DA32001DBC71 /* LoginViewController.swift */; };
+		AF6BE84E207605D500F9F761 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE83B2076058900F9F761 /* Roboto-Bold.ttf */; };
+		AF6BE84F207605D500F9F761 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE83C2076058D00F9F761 /* Roboto-LightItalic.ttf */; };
+		AF6BE850207605D500F9F761 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE83D2076059200F9F761 /* Roboto-Black.ttf */; };
+		AF6BE851207605D500F9F761 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE83E2076059600F9F761 /* Roboto-Regular.ttf */; };
+		AF6BE852207605D500F9F761 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE83F2076059B00F9F761 /* Roboto-Thin.ttf */; };
+		AF6BE853207605D500F9F761 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE8402076059F00F9F761 /* Roboto-Italic.ttf */; };
+		AF6BE854207605D500F9F761 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE841207605A400F9F761 /* RobotoCondensed-BoldItalic.ttf */; };
+		AF6BE855207605D500F9F761 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE842207605A800F9F761 /* RobotoCondensed-Italic.ttf */; };
+		AF6BE856207605D500F9F761 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE843207605AC00F9F761 /* Roboto-Light.ttf */; };
+		AF6BE857207605D500F9F761 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE844207605B000F9F761 /* Roboto-MediumItalic.ttf */; };
+		AF6BE858207605D500F9F761 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE845207605B400F9F761 /* Roboto-ThinItalic.ttf */; };
+		AF6BE859207605D500F9F761 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE846207605B800F9F761 /* Roboto-Medium.ttf */; };
+		AF6BE85A207605D500F9F761 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE847207605BC00F9F761 /* RobotoCondensed-Bold.ttf */; };
+		AF6BE85B207605D500F9F761 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE848207605C000F9F761 /* RobotoCondensed-LightItalic.ttf */; };
+		AF6BE85C207605D500F9F761 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE849207605C300F9F761 /* Roboto-BoldItalic.ttf */; };
+		AF6BE85D207605D500F9F761 /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE84A207605C700F9F761 /* Apache License.txt */; };
+		AF6BE85E207605D500F9F761 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE84B207605CB00F9F761 /* Roboto-BlackItalic.ttf */; };
+		AF6BE85F207605D500F9F761 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE84C207605CF00F9F761 /* RobotoCondensed-Regular.ttf */; };
+		AF6BE860207605D500F9F761 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6BE84D207605D300F9F761 /* RobotoCondensed-Light.ttf */; };
+		AFDB1C0921469DDC00B1752C /* Exnovations_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDB1C0821469DDB00B1752C /* Exnovations_logo.png */; };
+		AFEF3F0E214B949E001A426B /* Exnovations_Intelizign_TW-1000x400.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF3F0D214B949D001A426B /* Exnovations_Intelizign_TW-1000x400.png */; };
+		AFEF3F10214B9832001A426B /* SplashScreen-2850×2633.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF3F0F214B9832001A426B /* SplashScreen-2850×2633.png */; };
+		AFF329AF20625C000096F2EC /* LeaveHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF329AE20625C000096F2EC /* LeaveHistoryTableViewCell.swift */; };
+		AFF329B120625C120096F2EC /* LeaveHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF329B020625C120096F2EC /* LeaveHistoryViewController.swift */; };
+		E6783BD59292AE1EDCDC6545 /* Pods_iMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74461A2129C40E1F9D7A52E1 /* Pods_iMobileUITests.framework */; };
+		F9A2206B04EF7844C0557B84 /* Pods_iMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7981D1B9BF4745A2A3B693BC /* Pods_iMobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF25C4F4205792A0001DBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF25C4D7205792A0001DBC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF25C4DE205792A0001DBC71;
+			remoteInfo = iMobile;
+		};
+		AF25C4FF205792A0001DBC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF25C4D7205792A0001DBC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF25C4DE205792A0001DBC71;
+			remoteInfo = iMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14091E0EB56612CB01D73E77 /* Pods-iMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMobileTests/Pods-iMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		410695A29AC47E4523426A00 /* Pods-iMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMobileUITests/Pods-iMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74461A2129C40E1F9D7A52E1 /* Pods_iMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7981D1B9BF4745A2A3B693BC /* Pods_iMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E2A5134F667828B53802B6 /* Pods_iMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A689DCECE09CAABD8DFD34A5 /* Pods-iMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMobileUITests/Pods-iMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C02A9EC6038942AD06BE97 /* Pods-iMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMobileTests/Pods-iMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF035621205B89300015BEA5 /* profileimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileimage.png; sourceTree = "<group>"; };
+		AF035623205B95520015BEA5 /* NavigationvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationvViewController.swift; sourceTree = "<group>"; };
+		AF035625205B97010015BEA5 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		AF035627205BD11A0015BEA5 /* touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch.png; sourceTree = "<group>"; };
+		AF035629205BD3200015BEA5 /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
+		AF03562B205BE53F0015BEA5 /* calender_picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender_picker.png; sourceTree = "<group>"; };
+		AF05C794206A40670083ECF2 /* employee_leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employee_leave.png; sourceTree = "<group>"; };
+		AF05C796206A40760083ECF2 /* employee_timesheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = employee_timesheet.png; sourceTree = "<group>"; };
+		AF05C798206A45EB0083ECF2 /* EmployeeTimesheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTimesheetViewController.swift; sourceTree = "<group>"; };
+		AF05C79A206A4A170083ECF2 /* EmpTImesheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpTImesheetTableViewCell.swift; sourceTree = "<group>"; };
+		AF0678D020749562003CCA5B /* sinchronize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sinchronize.png; sourceTree = "<group>"; };
+		AF068CE5205A35620094C1D8 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		AF068CE7205A75850094C1D8 /* iMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF068CE8205A75860094C1D8 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		AF068CE9205A75860094C1D8 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		AF068CEB205A7E300094C1D8 /* bday_bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bday_bg1.png; sourceTree = "<group>"; };
+		AF068CED205A7E370094C1D8 /* bday_bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bday_bg2.png; sourceTree = "<group>"; };
+		AF068CEF205A7E430094C1D8 /* bday_bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bday_bg3.png; sourceTree = "<group>"; };
+		AF068CF1205A7E500094C1D8 /* bday_img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bday_img2.png; sourceTree = "<group>"; };
+		AF068CF2205A7E500094C1D8 /* bday_img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bday_img3.png; sourceTree = "<group>"; };
+		AF068CF3205A7E500094C1D8 /* bday_img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bday_img1.png; sourceTree = "<group>"; };
+		AF068CFB205A8F130094C1D8 /* CarouselReuseViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselReuseViewTableViewCell.swift; sourceTree = "<group>"; };
+		AF068CFC205A8F130094C1D8 /* CarouselReuseViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselReuseViewTableViewCell.xib; sourceTree = "<group>"; };
+		AF068D00205A9F320094C1D8 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AF06B4DC2058F49B00451E26 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		AF06B4DF2058F53300451E26 /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+		AF06B4E12058FABA00451E26 /* imobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imobile.png; sourceTree = "<group>"; };
+		AF06B4E22058FABA00451E26 /* intelizign_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intelizign_logo.png; sourceTree = "<group>"; };
+		AF06B4F4205901A600451E26 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		AF06B4F6205902B600451E26 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		AF06B4F82059247F00451E26 /* LeftmenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftmenuTableViewCell.swift; sourceTree = "<group>"; };
+		AF06B4FA20592F7800451E26 /* fill_timesheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fill_timesheet.png; sourceTree = "<group>"; };
+		AF06B4FC20592F8700451E26 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		AF06B4FE20592F9700451E26 /* leave_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leave_history.png; sourceTree = "<group>"; };
+		AF06B50020592FAA00451E26 /* leaveavailibility.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaveavailibility.png; sourceTree = "<group>"; };
+		AF06B50120592FAA00451E26 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		AF06B50420592FF900451E26 /* apply_leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apply_leave.png; sourceTree = "<group>"; };
+		AF08A34D2063C456003B76F1 /* TimeSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetViewController.swift; sourceTree = "<group>"; };
+		AF08A34F2063C80A003B76F1 /* TimeSheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetTableViewCell.swift; sourceTree = "<group>"; };
+		AF08A3512063C9EE003B76F1 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		AF08A3532063CB76003B76F1 /* arrow-204-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-204-48.png"; sourceTree = "<group>"; };
+		AF08A3552063CDDA003B76F1 /* arrow-204-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-204-16.png"; sourceTree = "<group>"; };
+		AF0908D0206519560074E23A /* ColorLegend.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ColorLegend.html; sourceTree = "<group>"; };
+		AF0908D220651A5E0074E23A /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		AF0908D420651C9D0074E23A /* close-window-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-window-32.png"; sourceTree = "<group>"; };
+		AF0908D620652CC40074E23A /* TimeFillPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFillPopup.swift; sourceTree = "<group>"; };
+		AF0A209621479FB80068D1D2 /* eMobile-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eMobile-01.png"; sourceTree = "<group>"; };
+		AF105528206135C1002CEEAD /* LeaveAvailabilityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveAvailabilityTableViewCell.swift; sourceTree = "<group>"; };
+		AF114283206B5F1400BF6295 /* EmployeeTimesheetDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTimesheetDetailsViewController.swift; sourceTree = "<group>"; };
+		AF114285206B628000BF6295 /* EmpTimesheetDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpTimesheetDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		AF114287206B8FBF00BF6295 /* EmpDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF119E34206CC8B900988D15 /* square-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-outline.png"; sourceTree = "<group>"; };
+		AF119E36206CC8D200988D15 /* check-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark.png"; sourceTree = "<group>"; };
+		AF14CA712068ED5E002C6F42 /* timesheet_blocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timesheet_blocked.png; sourceTree = "<group>"; };
+		AF165831205F9C89000F6C28 /* LeaveAvailabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveAvailabilityViewController.swift; sourceTree = "<group>"; };
+		AF16B8B72072309F00B6C39C /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		AF16B8B8207230A200B6C39C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		AF16B8B9207230A400B6C39C /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		AF16B8BA207230AC00B6C39C /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		AF16B8BF20723DAB00B6C39C /* EmployeeLeaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLeaveViewController.swift; sourceTree = "<group>"; };
+		AF16B8C1207240C300B6C39C /* EmployeeLeaveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLeaveTableViewCell.swift; sourceTree = "<group>"; };
+		AF25C4DF205792A0001DBC71 /* iMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25C4E2205792A0001DBC71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF25C4E4205792A0001DBC71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF25C4E7205792A0001DBC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF25C4E9205792A0001DBC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF25C4EC205792A0001DBC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF25C4EE205792A0001DBC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF25C4F3205792A0001DBC71 /* iMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25C4F7205792A0001DBC71 /* iMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMobileTests.swift; sourceTree = "<group>"; };
+		AF25C4F9205792A0001DBC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF25C4FE205792A0001DBC71 /* iMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF25C502205792A0001DBC71 /* iMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMobileUITests.swift; sourceTree = "<group>"; };
+		AF25C504205792A0001DBC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF25C51120579908001DBC71 /* imobile_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imobile_detail.png; sourceTree = "<group>"; };
+		AF25C51320579912001DBC71 /* intelizign_splash_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intelizign_splash_logo.png; sourceTree = "<group>"; };
+		AF25C5152057AF7A001DBC71 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AF25C5172057CB46001DBC71 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		AF25C5182057CB47001DBC71 /* userid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userid.png; sourceTree = "<group>"; };
+		AF25C51B2057D288001DBC71 /* square-outline-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-outline-64.png"; sourceTree = "<group>"; };
+		AF25C51D2057D297001DBC71 /* check-mark-8-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark-8-64.png"; sourceTree = "<group>"; };
+		AF25C5202057DA32001DBC71 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF6BE83B2076058900F9F761 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		AF6BE83C2076058D00F9F761 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE83D2076059200F9F761 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		AF6BE83E2076059600F9F761 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		AF6BE83F2076059B00F9F761 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		AF6BE8402076059F00F9F761 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		AF6BE841207605A400F9F761 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE842207605A800F9F761 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		AF6BE843207605AC00F9F761 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		AF6BE844207605B000F9F761 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE845207605B400F9F761 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE846207605B800F9F761 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		AF6BE847207605BC00F9F761 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		AF6BE848207605C000F9F761 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE849207605C300F9F761 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE84A207605C700F9F761 /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		AF6BE84B207605CB00F9F761 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AF6BE84C207605CF00F9F761 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		AF6BE84D207605D300F9F761 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		AF998EC420761B52000EC9DB /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette-Regular.ttf"; sourceTree = "<group>"; };
+		AFDB1C0821469DDB00B1752C /* Exnovations_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exnovations_logo.png; sourceTree = "<group>"; };
+		AFEF3F0D214B949D001A426B /* Exnovations_Intelizign_TW-1000x400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exnovations_Intelizign_TW-1000x400.png"; sourceTree = "<group>"; };
+		AFEF3F0F214B9832001A426B /* SplashScreen-2850×2633.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SplashScreen-2850×2633.png"; sourceTree = "<group>"; };
+		AFF329AE20625C000096F2EC /* LeaveHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		AFF329B020625C120096F2EC /* LeaveHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveHistoryViewController.swift; sourceTree = "<group>"; };
+		B3F316E65F268FC06A7958F0 /* Pods-iMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMobile/Pods-iMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		D667069A7EEF4ED1BEC11BE0 /* Pods-iMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMobile/Pods-iMobile.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF25C4DC205792A0001DBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A2206B04EF7844C0557B84 /* Pods_iMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4F0205792A0001DBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FB6F0530F92E5338E170CD /* Pods_iMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4FB205792A0001DBC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6783BD59292AE1EDCDC6545 /* Pods_iMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3E6F20E33A391847279BF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F316E65F268FC06A7958F0 /* Pods-iMobile.debug.xcconfig */,
+				D667069A7EEF4ED1BEC11BE0 /* Pods-iMobile.release.xcconfig */,
+				14091E0EB56612CB01D73E77 /* Pods-iMobileTests.debug.xcconfig */,
+				A9C02A9EC6038942AD06BE97 /* Pods-iMobileTests.release.xcconfig */,
+				A689DCECE09CAABD8DFD34A5 /* Pods-iMobileUITests.debug.xcconfig */,
+				410695A29AC47E4523426A00 /* Pods-iMobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF068CFF205A9F180094C1D8 /* Model class */ = {
+			isa = PBXGroup;
+			children = (
+				AF068D00205A9F320094C1D8 /* Common.swift */,
+			);
+			path = "Model class";
+			sourceTree = "<group>";
+		};
+		AF06B4DB2058F2B600451E26 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AF0908D0206519560074E23A /* ColorLegend.html */,
+				AF06B4F6205902B600451E26 /* LeftMenuViewController.swift */,
+				AF06B4DC2058F49B00451E26 /* Dashboard.storyboard */,
+				AF06B4F4205901A600451E26 /* DashboardViewController.swift */,
+				AF06B4F82059247F00451E26 /* LeftmenuTableViewCell.swift */,
+				AF068CFB205A8F130094C1D8 /* CarouselReuseViewTableViewCell.swift */,
+				AF068CFC205A8F130094C1D8 /* CarouselReuseViewTableViewCell.xib */,
+				AF035623205B95520015BEA5 /* NavigationvViewController.swift */,
+				AF035625205B97010015BEA5 /* DemoViewController.swift */,
+				AF165831205F9C89000F6C28 /* LeaveAvailabilityViewController.swift */,
+				AFF329AE20625C000096F2EC /* LeaveHistoryTableViewCell.swift */,
+				AFF329B020625C120096F2EC /* LeaveHistoryViewController.swift */,
+				AF08A34D2063C456003B76F1 /* TimeSheetViewController.swift */,
+				AF08A34F2063C80A003B76F1 /* TimeSheetTableViewCell.swift */,
+				AF0908D220651A5E0074E23A /* PopupViewController.swift */,
+				AF0908D620652CC40074E23A /* TimeFillPopup.swift */,
+				AF05C798206A45EB0083ECF2 /* EmployeeTimesheetViewController.swift */,
+				AF05C79A206A4A170083ECF2 /* EmpTImesheetTableViewCell.swift */,
+				AF114283206B5F1400BF6295 /* EmployeeTimesheetDetailsViewController.swift */,
+				AF114285206B628000BF6295 /* EmpTimesheetDetailsTableViewCell.swift */,
+				AF114287206B8FBF00BF6295 /* EmpDetailsCollectionViewCell.swift */,
+				AF16B8BF20723DAB00B6C39C /* EmployeeLeaveViewController.swift */,
+				AF16B8C1207240C300B6C39C /* EmployeeLeaveTableViewCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AF06B4DE2058F51D00451E26 /* SSSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AF06B4DF2058F53300451E26 /* SSASideMenu.swift */,
+			);
+			path = SSSideMenu;
+			sourceTree = "<group>";
+		};
+		AF06B4E52058FD7400451E26 /* Sources Dashboard autoslide */ = {
+			isa = PBXGroup;
+			children = (
+				AF068CE9205A75860094C1D8 /* iCarousel.h */,
+				AF068CE8205A75860094C1D8 /* iCarousel.m */,
+				AF068CE7205A75850094C1D8 /* iMobile-Bridging-Header.h */,
+			);
+			path = "Sources Dashboard autoslide";
+			sourceTree = "<group>";
+		};
+		AF1055272061359D002CEEAD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AF105528206135C1002CEEAD /* LeaveAvailabilityTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AF25C4D6205792A0001DBC71 = {
+			isa = PBXGroup;
+			children = (
+				AF25C4E1205792A0001DBC71 /* iMobile */,
+				AF25C4F6205792A0001DBC71 /* iMobileTests */,
+				AF25C501205792A0001DBC71 /* iMobileUITests */,
+				AF25C4E0205792A0001DBC71 /* Products */,
+				4D3E6F20E33A391847279BF2 /* Pods */,
+				EBF1FBB165C50EE4645EE04D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF25C4E0205792A0001DBC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C4DF205792A0001DBC71 /* iMobile.app */,
+				AF25C4F3205792A0001DBC71 /* iMobileTests.xctest */,
+				AF25C4FE205792A0001DBC71 /* iMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF25C4E1205792A0001DBC71 /* iMobile */ = {
+			isa = PBXGroup;
+			children = (
+				AF6BE83A2076056700F9F761 /* Font */,
+				AF1055272061359D002CEEAD /* Cell */,
+				AF068CFF205A9F180094C1D8 /* Model class */,
+				AF06B4E52058FD7400451E26 /* Sources Dashboard autoslide */,
+				AF06B4DE2058F51D00451E26 /* SSSideMenu */,
+				AF06B4DB2058F2B600451E26 /* Dashboard */,
+				AF25C5222057DA3A001DBC71 /* Splash screen & Main */,
+				AF25C51F2057DA12001DBC71 /* Login */,
+				AF25C510205798DE001DBC71 /* iMobileImages */,
+				AF25C4E2205792A0001DBC71 /* AppDelegate.swift */,
+				AF25C4E9205792A0001DBC71 /* Assets.xcassets */,
+				AF25C4EB205792A0001DBC71 /* LaunchScreen.storyboard */,
+				AF25C4EE205792A0001DBC71 /* Info.plist */,
+			);
+			path = iMobile;
+			sourceTree = "<group>";
+		};
+		AF25C4F6205792A0001DBC71 /* iMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C4F7205792A0001DBC71 /* iMobileTests.swift */,
+				AF25C4F9205792A0001DBC71 /* Info.plist */,
+			);
+			path = iMobileTests;
+			sourceTree = "<group>";
+		};
+		AF25C501205792A0001DBC71 /* iMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C502205792A0001DBC71 /* iMobileUITests.swift */,
+				AF25C504205792A0001DBC71 /* Info.plist */,
+			);
+			path = iMobileUITests;
+			sourceTree = "<group>";
+		};
+		AF25C510205798DE001DBC71 /* iMobileImages */ = {
+			isa = PBXGroup;
+			children = (
+				AFEF3F0D214B949D001A426B /* Exnovations_Intelizign_TW-1000x400.png */,
+				AFEF3F0F214B9832001A426B /* SplashScreen-2850×2633.png */,
+				AF0678D020749562003CCA5B /* sinchronize.png */,
+				AFDB1C0821469DDB00B1752C /* Exnovations_logo.png */,
+				AF14CA712068ED5E002C6F42 /* timesheet_blocked.png */,
+				AF0908D420651C9D0074E23A /* close-window-32.png */,
+				AF0A209621479FB80068D1D2 /* eMobile-01.png */,
+				AF16B8B8207230A200B6C39C /* back.png */,
+				AF16B8B9207230A400B6C39C /* forward.png */,
+				AF16B8BA207230AC00B6C39C /* next.png */,
+				AF16B8B72072309F00B6C39C /* previous.png */,
+				AF05C794206A40670083ECF2 /* employee_leave.png */,
+				AF08A3552063CDDA003B76F1 /* arrow-204-16.png */,
+				AF05C796206A40760083ECF2 /* employee_timesheet.png */,
+				AF08A3532063CB76003B76F1 /* arrow-204-48.png */,
+				AF08A3512063C9EE003B76F1 /* info.png */,
+				AF03562B205BE53F0015BEA5 /* calender_picker.png */,
+				AF035629205BD3200015BEA5 /* tap.png */,
+				AF035627205BD11A0015BEA5 /* touch.png */,
+				AF035621205B89300015BEA5 /* profileimage.png */,
+				AF068CF3205A7E500094C1D8 /* bday_img1.png */,
+				AF068CF1205A7E500094C1D8 /* bday_img2.png */,
+				AF068CF2205A7E500094C1D8 /* bday_img3.png */,
+				AF068CEF205A7E430094C1D8 /* bday_bg3.png */,
+				AF068CED205A7E370094C1D8 /* bday_bg2.png */,
+				AF068CEB205A7E300094C1D8 /* bday_bg1.png */,
+				AF068CE5205A35620094C1D8 /* menu.png */,
+				AF06B50020592FAA00451E26 /* leaveavailibility.png */,
+				AF06B50120592FAA00451E26 /* logout.png */,
+				AF06B50420592FF900451E26 /* apply_leave.png */,
+				AF06B4FE20592F9700451E26 /* leave_history.png */,
+				AF06B4FC20592F8700451E26 /* home.png */,
+				AF06B4FA20592F7800451E26 /* fill_timesheet.png */,
+				AF06B4E12058FABA00451E26 /* imobile.png */,
+				AF06B4E22058FABA00451E26 /* intelizign_logo.png */,
+				AF119E36206CC8D200988D15 /* check-mark.png */,
+				AF119E34206CC8B900988D15 /* square-outline.png */,
+				AF25C51D2057D297001DBC71 /* check-mark-8-64.png */,
+				AF25C51B2057D288001DBC71 /* square-outline-64.png */,
+				AF25C5172057CB46001DBC71 /* password.png */,
+				AF25C5182057CB47001DBC71 /* userid.png */,
+				AF25C51320579912001DBC71 /* intelizign_splash_logo.png */,
+				AF25C51120579908001DBC71 /* imobile_detail.png */,
+			);
+			path = iMobileImages;
+			sourceTree = "<group>";
+		};
+		AF25C51F2057DA12001DBC71 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C5152057AF7A001DBC71 /* Login.storyboard */,
+				AF25C5202057DA32001DBC71 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AF25C5222057DA3A001DBC71 /* Splash screen & Main */ = {
+			isa = PBXGroup;
+			children = (
+				AF25C4E4205792A0001DBC71 /* ViewController.swift */,
+				AF25C4E6205792A0001DBC71 /* Main.storyboard */,
+			);
+			path = "Splash screen & Main";
+			sourceTree = "<group>";
+		};
+		AF6BE83A2076056700F9F761 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AF998EC420761B52000EC9DB /* Courgette-Regular.ttf */,
+				AF6BE84A207605C700F9F761 /* Apache License.txt */,
+				AF6BE83D2076059200F9F761 /* Roboto-Black.ttf */,
+				AF6BE84B207605CB00F9F761 /* Roboto-BlackItalic.ttf */,
+				AF6BE83B2076058900F9F761 /* Roboto-Bold.ttf */,
+				AF6BE849207605C300F9F761 /* Roboto-BoldItalic.ttf */,
+				AF6BE8402076059F00F9F761 /* Roboto-Italic.ttf */,
+				AF6BE843207605AC00F9F761 /* Roboto-Light.ttf */,
+				AF6BE83C2076058D00F9F761 /* Roboto-LightItalic.ttf */,
+				AF6BE846207605B800F9F761 /* Roboto-Medium.ttf */,
+				AF6BE844207605B000F9F761 /* Roboto-MediumItalic.ttf */,
+				AF6BE83E2076059600F9F761 /* Roboto-Regular.ttf */,
+				AF6BE83F2076059B00F9F761 /* Roboto-Thin.ttf */,
+				AF6BE845207605B400F9F761 /* Roboto-ThinItalic.ttf */,
+				AF6BE847207605BC00F9F761 /* RobotoCondensed-Bold.ttf */,
+				AF6BE841207605A400F9F761 /* RobotoCondensed-BoldItalic.ttf */,
+				AF6BE842207605A800F9F761 /* RobotoCondensed-Italic.ttf */,
+				AF6BE84D207605D300F9F761 /* RobotoCondensed-Light.ttf */,
+				AF6BE848207605C000F9F761 /* RobotoCondensed-LightItalic.ttf */,
+				AF6BE84C207605CF00F9F761 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EBF1FBB165C50EE4645EE04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7981D1B9BF4745A2A3B693BC /* Pods_iMobile.framework */,
+				96E2A5134F667828B53802B6 /* Pods_iMobileTests.framework */,
+				74461A2129C40E1F9D7A52E1 /* Pods_iMobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF25C4DE205792A0001DBC71 /* iMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25C507205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobile" */;
+			buildPhases = (
+				617642222466C5E05A3224E3 /* [CP] Check Pods Manifest.lock */,
+				AF25C4DB205792A0001DBC71 /* Sources */,
+				AF25C4DC205792A0001DBC71 /* Frameworks */,
+				AF25C4DD205792A0001DBC71 /* Resources */,
+				F611F55A595C028F9D6750A2 /* [CP] Embed Pods Frameworks */,
+				C56FE995FCF58A592AE49A8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMobile;
+			productName = iMobile;
+			productReference = AF25C4DF205792A0001DBC71 /* iMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF25C4F2205792A0001DBC71 /* iMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25C50A205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileTests" */;
+			buildPhases = (
+				8066D933A6FB3739702545F3 /* [CP] Check Pods Manifest.lock */,
+				AF25C4EF205792A0001DBC71 /* Sources */,
+				AF25C4F0205792A0001DBC71 /* Frameworks */,
+				AF25C4F1205792A0001DBC71 /* Resources */,
+				90E6E1D13335ED8F3DF10A7D /* [CP] Embed Pods Frameworks */,
+				6B8EED6AC28992597A242653 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF25C4F5205792A0001DBC71 /* PBXTargetDependency */,
+			);
+			name = iMobileTests;
+			productName = iMobileTests;
+			productReference = AF25C4F3205792A0001DBC71 /* iMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF25C4FD205792A0001DBC71 /* iMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF25C50D205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileUITests" */;
+			buildPhases = (
+				9C67985E93D87D7A6061D5E2 /* [CP] Check Pods Manifest.lock */,
+				AF25C4FA205792A0001DBC71 /* Sources */,
+				AF25C4FB205792A0001DBC71 /* Frameworks */,
+				AF25C4FC205792A0001DBC71 /* Resources */,
+				E20F103F0511849CF60BE447 /* [CP] Embed Pods Frameworks */,
+				7B40720AFC2C3C714F39E1EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF25C500205792A0001DBC71 /* PBXTargetDependency */,
+			);
+			name = iMobileUITests;
+			productName = iMobileUITests;
+			productReference = AF25C4FE205792A0001DBC71 /* iMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF25C4D7205792A0001DBC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rahul Maurya";
+				TargetAttributes = {
+					AF25C4DE205792A0001DBC71 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					AF25C4F2205792A0001DBC71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF25C4DE205792A0001DBC71;
+					};
+					AF25C4FD205792A0001DBC71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF25C4DE205792A0001DBC71;
+					};
+				};
+			};
+			buildConfigurationList = AF25C4DA205792A0001DBC71 /* Build configuration list for PBXProject "iMobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF25C4D6205792A0001DBC71;
+			productRefGroup = AF25C4E0205792A0001DBC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF25C4DE205792A0001DBC71 /* iMobile */,
+				AF25C4F2205792A0001DBC71 /* iMobileTests */,
+				AF25C4FD205792A0001DBC71 /* iMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF25C4DD205792A0001DBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C5192057CB47001DBC71 /* password.png in Resources */,
+				AF25C51A2057CB47001DBC71 /* userid.png in Resources */,
+				AFDB1C0921469DDC00B1752C /* Exnovations_logo.png in Resources */,
+				AF6BE852207605D500F9F761 /* Roboto-Thin.ttf in Resources */,
+				AF6BE851207605D500F9F761 /* Roboto-Regular.ttf in Resources */,
+				AF6BE857207605D500F9F761 /* Roboto-MediumItalic.ttf in Resources */,
+				AF6BE84F207605D500F9F761 /* Roboto-LightItalic.ttf in Resources */,
+				AF6BE853207605D500F9F761 /* Roboto-Italic.ttf in Resources */,
+				AF06B50220592FAA00451E26 /* leaveavailibility.png in Resources */,
+				AF6BE859207605D500F9F761 /* Roboto-Medium.ttf in Resources */,
+				AF06B4FF20592F9700451E26 /* leave_history.png in Resources */,
+				AF6BE84E207605D500F9F761 /* Roboto-Bold.ttf in Resources */,
+				AF03562C205BE53F0015BEA5 /* calender_picker.png in Resources */,
+				AF25C51C2057D288001DBC71 /* square-outline-64.png in Resources */,
+				AF0678D120749563003CCA5B /* sinchronize.png in Resources */,
+				AF06B4E32058FABA00451E26 /* imobile.png in Resources */,
+				AF08A3522063C9EE003B76F1 /* info.png in Resources */,
+				AF6BE850207605D500F9F761 /* Roboto-Black.ttf in Resources */,
+				AF06B4DD2058F49B00451E26 /* Dashboard.storyboard in Resources */,
+				AF25C51420579912001DBC71 /* intelizign_splash_logo.png in Resources */,
+				AF16B8BB207230AC00B6C39C /* previous.png in Resources */,
+				AF16B8BE207230AC00B6C39C /* next.png in Resources */,
+				AF25C51220579908001DBC71 /* imobile_detail.png in Resources */,
+				AF035628205BD11A0015BEA5 /* touch.png in Resources */,
+				AF16B8BC207230AC00B6C39C /* back.png in Resources */,
+				AF068CF0205A7E430094C1D8 /* bday_bg3.png in Resources */,
+				AF6BE855207605D500F9F761 /* RobotoCondensed-Italic.ttf in Resources */,
+				AF25C5162057AF7A001DBC71 /* Login.storyboard in Resources */,
+				AF6BE85D207605D500F9F761 /* Apache License.txt in Resources */,
+				AF6BE85C207605D500F9F761 /* Roboto-BoldItalic.ttf in Resources */,
+				AF25C51E2057D297001DBC71 /* check-mark-8-64.png in Resources */,
+				AF6BE85F207605D500F9F761 /* RobotoCondensed-Regular.ttf in Resources */,
+				AF0908D520651C9D0074E23A /* close-window-32.png in Resources */,
+				AF6BE85E207605D500F9F761 /* Roboto-BlackItalic.ttf in Resources */,
+				AF0A209721479FB80068D1D2 /* eMobile-01.png in Resources */,
+				AF068CEE205A7E380094C1D8 /* bday_bg2.png in Resources */,
+				AF6BE854207605D500F9F761 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				AF068CFE205A8F130094C1D8 /* CarouselReuseViewTableViewCell.xib in Resources */,
+				AF119E37206CC8D200988D15 /* check-mark.png in Resources */,
+				AF08A3562063CDDA003B76F1 /* arrow-204-16.png in Resources */,
+				AF068CF5205A7E510094C1D8 /* bday_img3.png in Resources */,
+				AF6BE85A207605D500F9F761 /* RobotoCondensed-Bold.ttf in Resources */,
+				AF0908D1206519560074E23A /* ColorLegend.html in Resources */,
+				AF035622205B89300015BEA5 /* profileimage.png in Resources */,
+				AF06B4E42058FABA00451E26 /* intelizign_logo.png in Resources */,
+				AF068CF6205A7E510094C1D8 /* bday_img1.png in Resources */,
+				AF068CF4205A7E510094C1D8 /* bday_img2.png in Resources */,
+				AF25C4ED205792A0001DBC71 /* LaunchScreen.storyboard in Resources */,
+				AF6BE85B207605D500F9F761 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				AF03562A205BD3200015BEA5 /* tap.png in Resources */,
+				AF05C795206A40670083ECF2 /* employee_leave.png in Resources */,
+				AF14CA722068ED5E002C6F42 /* timesheet_blocked.png in Resources */,
+				AF068CEC205A7E300094C1D8 /* bday_bg1.png in Resources */,
+				AF05C797206A40760083ECF2 /* employee_timesheet.png in Resources */,
+				AF08A3542063CB76003B76F1 /* arrow-204-48.png in Resources */,
+				AF16B8BD207230AC00B6C39C /* forward.png in Resources */,
+				AFEF3F10214B9832001A426B /* SplashScreen-2850×2633.png in Resources */,
+				AF06B4FD20592F8700451E26 /* home.png in Resources */,
+				AF6BE856207605D500F9F761 /* Roboto-Light.ttf in Resources */,
+				AF06B4FB20592F7900451E26 /* fill_timesheet.png in Resources */,
+				AF25C4EA205792A0001DBC71 /* Assets.xcassets in Resources */,
+				AF119E35206CC8BA00988D15 /* square-outline.png in Resources */,
+				AF6BE860207605D500F9F761 /* RobotoCondensed-Light.ttf in Resources */,
+				AF068CE6205A35620094C1D8 /* menu.png in Resources */,
+				AFEF3F0E214B949E001A426B /* Exnovations_Intelizign_TW-1000x400.png in Resources */,
+				AF25C4E8205792A0001DBC71 /* Main.storyboard in Resources */,
+				AF6BE858207605D500F9F761 /* Roboto-ThinItalic.ttf in Resources */,
+				AF06B50520592FF900451E26 /* apply_leave.png in Resources */,
+				AF06B50320592FAA00451E26 /* logout.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4F1205792A0001DBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4FC205792A0001DBC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		617642222466C5E05A3224E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B8EED6AC28992597A242653 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMobileTests/Pods-iMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B40720AFC2C3C714F39E1EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMobileUITests/Pods-iMobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8066D933A6FB3739702545F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E6E1D13335ED8F3DF10A7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMobileTests/Pods-iMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C67985E93D87D7A6061D5E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56FE995FCF58A592AE49A8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMobile/Pods-iMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20F103F0511849CF60BE447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMobileUITests/Pods-iMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F611F55A595C028F9D6750A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMobile/Pods-iMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Dodo/Dodo.framework",
+				"${BUILT_PRODUCTS_DIR}/EFInternetIndicator/EFInternetIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator/MaterialActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLoader/SwiftLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dodo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFInternetIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMobile/Pods-iMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF25C4DB205792A0001DBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF105529206135C1002CEEAD /* LeaveAvailabilityTableViewCell.swift in Sources */,
+				AF0908D320651A5E0074E23A /* PopupViewController.swift in Sources */,
+				AF05C799206A45EB0083ECF2 /* EmployeeTimesheetViewController.swift in Sources */,
+				AF25C5212057DA32001DBC71 /* LoginViewController.swift in Sources */,
+				AFF329B120625C120096F2EC /* LeaveHistoryViewController.swift in Sources */,
+				AF06B4E02058F53300451E26 /* SSASideMenu.swift in Sources */,
+				AF16B8C020723DAB00B6C39C /* EmployeeLeaveViewController.swift in Sources */,
+				AF114284206B5F1400BF6295 /* EmployeeTimesheetDetailsViewController.swift in Sources */,
+				AF06B4F5205901A600451E26 /* DashboardViewController.swift in Sources */,
+				AF035626205B97010015BEA5 /* DemoViewController.swift in Sources */,
+				AF08A34E2063C456003B76F1 /* TimeSheetViewController.swift in Sources */,
+				AF05C79B206A4A180083ECF2 /* EmpTImesheetTableViewCell.swift in Sources */,
+				AF165832205F9C89000F6C28 /* LeaveAvailabilityViewController.swift in Sources */,
+				AF16B8C2207240C300B6C39C /* EmployeeLeaveTableViewCell.swift in Sources */,
+				AF114286206B628000BF6295 /* EmpTimesheetDetailsTableViewCell.swift in Sources */,
+				AFF329AF20625C000096F2EC /* LeaveHistoryTableViewCell.swift in Sources */,
+				AF25C4E5205792A0001DBC71 /* ViewController.swift in Sources */,
+				AF035624205B95520015BEA5 /* NavigationvViewController.swift in Sources */,
+				AF114288206B8FBF00BF6295 /* EmpDetailsCollectionViewCell.swift in Sources */,
+				AF0908D720652CC40074E23A /* TimeFillPopup.swift in Sources */,
+				AF068CFD205A8F130094C1D8 /* CarouselReuseViewTableViewCell.swift in Sources */,
+				AF06B4F7205902B600451E26 /* LeftMenuViewController.swift in Sources */,
+				AF068CEA205A75860094C1D8 /* iCarousel.m in Sources */,
+				AF08A3502063C80A003B76F1 /* TimeSheetTableViewCell.swift in Sources */,
+				AF25C4E3205792A0001DBC71 /* AppDelegate.swift in Sources */,
+				AF068D01205A9F320094C1D8 /* Common.swift in Sources */,
+				AF06B4F92059247F00451E26 /* LeftmenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4EF205792A0001DBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C4F8205792A0001DBC71 /* iMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF25C4FA205792A0001DBC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF25C503205792A0001DBC71 /* iMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF25C4F5205792A0001DBC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF25C4DE205792A0001DBC71 /* iMobile */;
+			targetProxy = AF25C4F4205792A0001DBC71 /* PBXContainerItemProxy */;
+		};
+		AF25C500205792A0001DBC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF25C4DE205792A0001DBC71 /* iMobile */;
+			targetProxy = AF25C4FF205792A0001DBC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF25C4E6205792A0001DBC71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF25C4E7205792A0001DBC71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF25C4EB205792A0001DBC71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF25C4EC205792A0001DBC71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF25C505205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF25C506205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF25C508205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F316E65F268FC06A7958F0 /* Pods-iMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8RMYYA8HA;
+				INFOPLIST_FILE = iMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMobile/Sources Dashboard autoslide/iMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF25C509205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D667069A7EEF4ED1BEC11BE0 /* Pods-iMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8RMYYA8HA;
+				INFOPLIST_FILE = iMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMobile/Sources Dashboard autoslide/iMobile-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF25C50B205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14091E0EB56612CB01D73E77 /* Pods-iMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMobile.app/iMobile";
+			};
+			name = Debug;
+		};
+		AF25C50C205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C02A9EC6038942AD06BE97 /* Pods-iMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMobile.app/iMobile";
+			};
+			name = Release;
+		};
+		AF25C50E205792A0001DBC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A689DCECE09CAABD8DFD34A5 /* Pods-iMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMobile;
+			};
+			name = Debug;
+		};
+		AF25C50F205792A0001DBC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410695A29AC47E4523426A00 /* Pods-iMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.intelizign.iMobile.iMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF25C4DA205792A0001DBC71 /* Build configuration list for PBXProject "iMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C505205792A0001DBC71 /* Debug */,
+				AF25C506205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25C507205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C508205792A0001DBC71 /* Debug */,
+				AF25C509205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25C50A205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C50B205792A0001DBC71 /* Debug */,
+				AF25C50C205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF25C50D205792A0001DBC71 /* Build configuration list for PBXNativeTarget "iMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF25C50E205792A0001DBC71 /* Debug */,
+				AF25C50F205792A0001DBC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF25C4D7205792A0001DBC71 /* Project object */;
+}
